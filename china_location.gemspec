@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["zhuangshunhe"]
   spec.email         = ["302643159@qq.com"]
   spec.summary       = %q{根据中国的省市获取经纬度和邮编}
-  spec.description   = %q{精确到县区}
+  spec.description   = %q{根据中国的省市获取经纬度和邮编, 精确到县区}
   spec.homepage      = "https://github.com/radiocontroller/location"
   spec.license       = "MIT"
 
