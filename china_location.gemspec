@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["302643159@qq.com"]
   spec.summary       = %q{根据中国的省市获取经纬度和邮编}
   spec.description   = %q{根据中国的省市获取经纬度和邮编, 精确到县区}
-  spec.homepage      = "https://github.com/radiocontroller/location"
+  spec.homepage      = "https://github.com/radiocontroller/china-location"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -25,6 +25,7 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
+  spec.required_ruby_version = '>= 1.9.3'
 
   spec.add_development_dependency "bundler", "~> 1.12"
   spec.add_development_dependency "rake", "~> 10.0"
