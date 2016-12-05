@@ -13,6 +13,8 @@ module ChinaLocation
               search_with_full_params(*args)
           when 2
               search_with_prov_city(*args)
+          else
+              {}
           end
       end
 
